@@ -70,9 +70,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CrtlUsPrueba.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CrtlUsPrueba.Designer.cs">
+      <DependentUpon>CrtlUsPrueba.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="Vistas\btnControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\btnControl.Designer.cs">
+      <DependentUpon>btnControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\Reporte\frm_ReporteUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +107,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>VistaUsuarioDataSet1.xsd</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CrtlUsPrueba.resx">
+      <DependentUpon>CrtlUsPrueba.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -104,6 +119,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vistas\btnControl.resx">
+      <DependentUpon>btnControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Reporte\frm_ReporteUsuarios.resx">
       <DependentUpon>frm_ReporteUsuarios.cs</DependentUpon>
     </EmbeddedResource>
