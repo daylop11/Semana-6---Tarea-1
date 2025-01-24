@@ -29,25 +29,25 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.vistaUsuarioDataSet = new Semana_6___Tarea_1.VistaUsuarioDataSet();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.listaUsuariosYRolesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.vistaUsuarioDataSet = new Semana_6___Tarea_1.VistaUsuarioDataSet();
             this.listaUsuariosYRolesTableAdapter = new Semana_6___Tarea_1.VistaUsuarioDataSetTableAdapters.ListaUsuariosYRolesTableAdapter();
             this.reportViewer2 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.reportViewer3 = new Microsoft.Reporting.WinForms.ReportViewer();
-            ((System.ComponentModel.ISupportInitialize)(this.vistaUsuarioDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.listaUsuariosYRolesBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vistaUsuarioDataSet)).BeginInit();
             this.SuspendLayout();
-            // 
-            // vistaUsuarioDataSet
-            // 
-            this.vistaUsuarioDataSet.DataSetName = "VistaUsuarioDataSet";
-            this.vistaUsuarioDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // listaUsuariosYRolesBindingSource
             // 
             this.listaUsuariosYRolesBindingSource.DataMember = "ListaUsuariosYRoles";
             this.listaUsuariosYRolesBindingSource.DataSource = this.vistaUsuarioDataSet;
+            // 
+            // vistaUsuarioDataSet
+            // 
+            this.vistaUsuarioDataSet.DataSetName = "VistaUsuarioDataSet";
+            this.vistaUsuarioDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // listaUsuariosYRolesTableAdapter
             // 
@@ -55,9 +55,9 @@
             // 
             // reportViewer2
             // 
-            reportDataSource2.Name = "DataSet1";
-            reportDataSource2.Value = this.listaUsuariosYRolesBindingSource;
-            this.reportViewer2.LocalReport.DataSources.Add(reportDataSource2);
+            reportDataSource1.Name = "DataSet1";
+            reportDataSource1.Value = this.listaUsuariosYRolesBindingSource;
+            this.reportViewer2.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer2.LocalReport.ReportEmbeddedResource = "Semana_6___Tarea_1.SqlServerTypes.Vistas.Reporte.ReporteUsuarios.rdlc";
             this.reportViewer2.Location = new System.Drawing.Point(44, 38);
             this.reportViewer2.Name = "reportViewer2";
@@ -85,8 +85,8 @@
             this.Name = "ReporteUsuarios";
             this.Text = "ReporteUsuarios";
             this.Load += new System.EventHandler(this.ReporteUsuarios_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.vistaUsuarioDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.listaUsuariosYRolesBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vistaUsuarioDataSet)).EndInit();
             this.ResumeLayout(false);
 
         }

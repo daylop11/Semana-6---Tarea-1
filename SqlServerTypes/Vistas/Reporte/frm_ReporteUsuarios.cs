@@ -13,11 +13,32 @@ namespace Semana_6___Tarea_1.SqlServerTypes.Vistas.Reporte
 {
     public partial class frm_ReporteUsuarios : Form
     {
-        private Control reportViewer1;
+        public Control reportViewer1;
 
         public frm_ReporteUsuarios()
         {
             InitializeComponent();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnReporte_Click(object sender, EventArgs e)
+        {
+            ReporteUsuarios reporteUsuario = new ReporteUsuarios();
+            reporteUsuario.ShowDialog();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
-}
+    }   
