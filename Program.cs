@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Semana_6___Tarea_1.SqlServerTypes.Vistas.Reporte;
+using Semana_6___Tarea_1.Vistas.Reporte;
 
 namespace Semana_6___Tarea_1
 {

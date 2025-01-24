@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Semana_6___Tarea_1.SqlServerTypes.Vistas.Reporte
+namespace Semana_6___Tarea_1.Vistas.Reporte
 {
     partial class frm_ReporteUsuarios
     {

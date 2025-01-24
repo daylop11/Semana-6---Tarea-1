@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Semana_6___Tarea_1.SqlServerTypes.Vistas.Reporte
+namespace Semana_6___Tarea_1.Vistas.Reporte
 {
     public partial class ReporteUsuarios : Form
     {
@@ -27,6 +27,7 @@ namespace Semana_6___Tarea_1.SqlServerTypes.Vistas.Reporte
             this.reportViewer3.RefreshReport();
             this.reportViewer2.RefreshReport();
             this.reportViewer3.RefreshReport();
+            
         }
 
         public void reportViewer2_Load(object sender, EventArgs e)

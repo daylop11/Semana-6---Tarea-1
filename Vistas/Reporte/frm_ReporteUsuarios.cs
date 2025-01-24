@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.Reporting.WinForms;
 
-namespace Semana_6___Tarea_1.SqlServerTypes.Vistas.Reporte
+namespace Semana_6___Tarea_1.Vistas.Reporte
 {
     public partial class frm_ReporteUsuarios : Form
     {
