@@ -1,4 +1,6 @@
-﻿namespace Semana_6___Tarea_1.SqlServerTypes.Vistas.Reporte
+﻿using System;
+
+namespace Semana_6___Tarea_1.SqlServerTypes.Vistas.Reporte
 {
     partial class frm_ReporteUsuarios
     {
@@ -35,7 +37,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(26, 29);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 50);
+            this.button1.Size = new System.Drawing.Size(122, 97);
             this.button1.TabIndex = 0;
             this.button1.Text = "Reporte Usuarios";
             this.button1.UseVisualStyleBackColor = true;
@@ -51,6 +53,11 @@
             this.Load += new System.EventHandler(this.frm_ReporteUsuarios_Load);
             this.ResumeLayout(false);
 
+        }
+
+        private void frm_ReporteUsuarios_Load(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
