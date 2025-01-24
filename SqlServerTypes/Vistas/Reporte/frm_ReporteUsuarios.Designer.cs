@@ -57,18 +57,21 @@ namespace Semana_6___Tarea_1.SqlServerTypes.Vistas.Reporte
             // 
             // btnReporte
             // 
+            this.btnReporte.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnReporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReporte.Location = new System.Drawing.Point(291, 174);
             this.btnReporte.Name = "btnReporte";
             this.btnReporte.Size = new System.Drawing.Size(103, 79);
             this.btnReporte.TabIndex = 0;
             this.btnReporte.Text = "REPORTE USUARIOS";
-            this.btnReporte.UseVisualStyleBackColor = true;
+            this.btnReporte.UseVisualStyleBackColor = false;
             this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
             // 
             // btnSalir
             // 
             this.btnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.ForeColor = System.Drawing.Color.Black;
             this.btnSalir.Location = new System.Drawing.Point(173, 315);
             this.btnSalir.Name = "btnSalir";
@@ -79,12 +82,14 @@ namespace Semana_6___Tarea_1.SqlServerTypes.Vistas.Reporte
             // 
             // btnUsuarios
             // 
+            this.btnUsuarios.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUsuarios.Location = new System.Drawing.Point(91, 174);
             this.btnUsuarios.Name = "btnUsuarios";
             this.btnUsuarios.Size = new System.Drawing.Size(103, 79);
             this.btnUsuarios.TabIndex = 2;
             this.btnUsuarios.Text = "USUARIOS";
-            this.btnUsuarios.UseVisualStyleBackColor = true;
+            this.btnUsuarios.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
